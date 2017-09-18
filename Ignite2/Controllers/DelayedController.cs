@@ -22,7 +22,7 @@ namespace Ignite2.Controllers
             }
 
             Thread.Sleep((howmuch * 1000));
-            return "This request was delayed by " + howmuch + " seconds" ;
+            return "This request was delayed by  " + howmuch + " seconds" ;
         }
 
         private void CrashMethod()

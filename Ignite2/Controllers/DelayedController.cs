@@ -27,6 +27,7 @@ namespace Ignite2.Controllers
 
 
         // Call this method to crash the server!  It will crash hard.
+        
         private void CrashMethod()
         {
             IntPtr p = Marshal.AllocHGlobal(1);

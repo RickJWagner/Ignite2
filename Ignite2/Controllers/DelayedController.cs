@@ -25,6 +25,8 @@ namespace Ignite2.Controllers
             return "This request was delayed by  " + howmuch + " seconds" ;
         }
 
+
+        // Call this method to crash the server!
         private void CrashMethod()
         {
             IntPtr p = Marshal.AllocHGlobal(1);
